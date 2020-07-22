@@ -18,7 +18,7 @@ print("W sumię kupuję")
 print(len(lista_zakupow["piekarnia"] + lista_zakupow["warzywniak"]))
 print("produktów")
 
-name = "maciej"
+name = "mac"
 name2 = name.capitalize()
 print(name2)
 # jak uzyc funkcji capitalize w słowniku?
