@@ -1,10 +1,11 @@
 print("Lista zakupów")
 lista_zakupow = {
-    "piekarnia": ["chleb", "bułki", "pączek", "drożdzówka"],
-    "warzywniak": ["marchew", "seler", "rukola", "pomidor", "ogórek"]
+    "piekarnia": ["chleb", "bułki", "pączek"],
+    "warzywniak": ["marchew", "seler", "rukola"]
 }
 for sklep in lista_zakupow:
-  print("Idę do " + sklep + " i kupuję tu nastepujące rzeczy: ")
+  sklep_C = sklep.capitalize()
+  print("Idę do " + sklep_C + " i kupuję tu nastepujące rzeczy: ")
   print(lista_zakupow["piekarnia"])
   print(lista_zakupow["warzywniak"])
 
@@ -18,10 +19,9 @@ print("W sumię kupuję")
 print(len(lista_zakupow["piekarnia"] + lista_zakupow["warzywniak"]))
 print("produktów")
 
-name = "mac"
+name = "maciej"
 name2 = name.capitalize()
 print(name2)
-# jak uzyc funkcji capitalize w słowniku?
 
 print(" ")
 
