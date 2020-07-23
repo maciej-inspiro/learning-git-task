@@ -22,3 +22,8 @@ name = "mac"
 name2 = name.capitalize()
 print(name2)
 # jak uzyc funkcji capitalize w słowniku?
+
+print(" ")
+for key in lista_zakupow:
+  lista_zakupow[key] = lista_zakupow[key].capitalize() #wywala błąd
+  print(key)
