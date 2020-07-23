@@ -4,21 +4,19 @@ lista_zakupow = {
     "warzywniak": ["marchew", "seler", "rukola"]
 }
 for sklep in lista_zakupow:
-  sklep_C = sklep.capitalize()
-  print("Idę do " + sklep_C + " i kupuję tu nastepujące rzeczy: ")
-  print(lista_zakupow["piekarnia"])
-  print(lista_zakupow["warzywniak"])
+  print("Idę do " + sklep.capitalize() + " i kupuję tu nastepujące rzeczy: ", lista_zakupow[sklep])
+
 
 print(" ")
 
-print(lista_zakupow.values())#roboczo
-
-print(" ")
-
-print("W sumię kupuję")
+print("W sumię kupuję:")
 print(len(lista_zakupow["piekarnia"] + lista_zakupow["warzywniak"]))
 print("produktów")
 
+print(" ")
+
+
+#roboczy kod, zostawiam na przyszłość, żeby wiedzieć jak doszedłem do powyższeho rozwiązania
 name = "maciej"
 name2 = name.capitalize()
 print(name2)
